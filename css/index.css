@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header-bg{
+    background-color: rgb(4, 53, 16);
+}
+.w-10{
+    width: 10%;
+}
+.icon-nav{
+    color: rgb(251, 206, 153);
+    font-size: 30px;
+    margin-left: 150px;
+}
+.line-height{
+    line-height: 2rem;
+}
