@@ -1,7 +1,16 @@
+@font-face {
+    font-family: JosefinSans-SemiBold;
+    src: url('../font/static/JosefinSans-SemiBold.ttf');
+}
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
+}
+.nav-text{
+    font-family: JosefinSans-SemiBold;
+    font-size: 17px;
 }
 .header-bg{
     background-color: rgb(4, 53, 16);
@@ -17,3 +26,16 @@
 .line-height{
     line-height: 2rem;
 }
+.intro-text-title{
+    font-family: JosefinSans-SemiBold;
+    font-size: 40px;
+}
+.intro-text-p{
+    font-family: JosefinSans-SemiBold;
+    font-size: 14px;
+}
+.color-star{
+    color: yellow;
+    font-size: 17px;
+}
+
