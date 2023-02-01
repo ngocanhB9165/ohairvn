@@ -2,6 +2,10 @@
     font-family: JosefinSans-SemiBold;
     src: url('../font/static/JosefinSans-SemiBold.ttf');
 }
+@font-face {
+    font-family: JosefinSans-SemiBoldItalic;
+    src: url('../font/static/JosefinSans-SemiBoldItalic.ttf');
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -38,4 +42,36 @@
     color: yellow;
     font-size: 17px;
 }
-
+.color-price{
+    color: rgb(4, 53, 16);
+}
+.line-through{
+    text-decoration: line-through;
+}
+.w-15{
+    width: 15%;
+}
+.radius-pro{
+    border-radius: 50px;
+}
+.card-g{
+    position: relative;
+}
+.pro{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.carousel-inner{
+    position: relative;
+}
+.text-carousel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: JosefinSans-SemiBoldItalic;
+    font-size: xxx-large;
+    font-weight: bold;
+    color: white;
+}
